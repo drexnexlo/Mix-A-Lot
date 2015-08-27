@@ -1,30 +1,27 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
 html {
 	font-size:16px;
 }
 
 body {
 	margin:0 auto;
-	width: 64rem;
+	
 }
 
 
 
 
 /* ///////////////////////////////////////////////////////////////////////////////HEADER */
-header {
-	z-index:1;
+
+.main-header {
+z-index:1;
 	position:fixed;
 	width:64rem;
 	background: rgba(177,230,208, .7);
 	height:7rem;
 	margin:0 auto;
-}
-.main-header {
-
 }
 
 
@@ -48,20 +45,18 @@ a {
 	margin: 0 auto;
 	margin-top:7rem;
 	width:64rem;
-	height:100%;
+	
 	
 }
+.top-bar-section ul li > a {
+	font-family:'Anton';
+}
+h1 {
+	font-family:'Anton';
+}
 
-/* ////////////////////////////////////////////////////////////////////////////////GALLERY */
+footer {
+	background-color:lightgreen;
+}
 
-/* ////////////////////////////////////////////////////////////////////////////////REVIEW */
-
-/* ////////////////////////////////////////////////////////////////////////////////ABOUT*/
-
-
-
-/* ////////////////////////////////////////////////////////////////////////////////CONTACT */
-
-/*images*/
- 
 	
