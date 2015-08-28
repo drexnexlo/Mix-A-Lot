@@ -13,7 +13,10 @@ body {
 	max-width:100%;
 }
 
-
+h2 {
+	font-family:anton, helvetica, sans-serif;
+	font-size:2rem;
+}
 
 /* ///////////////////////////////////////////////////////////////////////////////HEADER */
 
