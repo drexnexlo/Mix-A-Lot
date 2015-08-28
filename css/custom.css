@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-
+@import url(https://fonts.googleapis.com/css?family=Changa+One);
 html {
 	font-size: 16px;
 }
@@ -11,12 +11,12 @@ body {
 	max-width: 100%;
 }
 h2 {
-	font-family: anton, helvetica, sans-serif;
-	font-size: 2rem;
+	font-family: 'Changa One', cursive;
 }
 section{
 	margin:10rem;
 }
+
 
 /* ///////////////////////////////////////////////////////////////////////////////HEADER */
 
@@ -32,11 +32,14 @@ ul {
 li {
 	display: inline;
 	margin: 1rem 1rem;
-	font-family: Anton, helvetica, sans-serif;
+	font-family: 'Changa One', cursive;
 	font-size: 3rem;
 }
 a {
 	color: #ff7f50;
+}
+.top-bar .name h1 a{
+	font-family: 'Changa One', cursive;
 }
 /* ////////////////////////////////////////////////////////////////////////////////HERO */
 
@@ -45,29 +48,25 @@ a {
 	margin-top: 7rem;
 }
 .top-bar-section ul li > a {
-	font-family: 'Anton';
+	font-family: 'Changa One', cursive;
 }
 h1 {
-	font-family: 'Anton';
+	font-family: 'Changa One', cursive;
 }
 footer {
 	background-color: lightgreen;
 }
 /* ////////////////////////////////////////////////////////////////////////////////GALLERY */
-.right {
-	margin-right: 10rem;
-}
+
 .gallery img {
-	margin:0 auto;
+
 	margin: 1.3125rem .3125rem;
 }
 .gallery img:hover {
-	width: 18.5rem;
-	height: 18.5rem;
-	margin-top: -2.125rem;
-	margin-left: -4rem;
-	top: 65%;
-	left: 65%;
+	width: 15rem;
+	height: 15rem;
+	margin: -1.125rem;
+	
 	z-index: 5;
 }
 /* ////////////////////////////////////////////////////////////////////////////////REVIEW */
