@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@charset "UTF-8";
+/* CSS Document */
+
 html {
 	font-size:16px;
 }
@@ -61,8 +64,17 @@ footer {
 
 .gallery img {
 	
-	 padding: .3125rem;
 	
+	 margin:.3125rem .3125rem;
+}
+.gallery img:hover {
+    width: 18.5rem;
+    height: 18.5rem;
+    margin-top: -2.125rem;
+    margin-left: -4rem;
+    top: 65%;
+    left: 65%;
+	 z-index: 5;
 }
 /* ////////////////////////////////////////////////////////////////////////////////REVIEW */
 
