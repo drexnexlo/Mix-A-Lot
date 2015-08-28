@@ -14,6 +14,10 @@ h2 {
 	font-family: anton, helvetica, sans-serif;
 	font-size: 2rem;
 }
+section{
+	margin:10rem;
+}
+
 /* ///////////////////////////////////////////////////////////////////////////////HEADER */
 
 .main-header {
@@ -54,6 +58,7 @@ footer {
 	margin-right: 10rem;
 }
 .gallery img {
+	margin:0 auto;
 	margin: 1.3125rem .3125rem;
 }
 .gallery img:hover {
