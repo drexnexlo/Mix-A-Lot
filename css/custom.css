@@ -360,6 +360,10 @@ input, textarea, select, label {
 .top-bar-section li:not(.has-form) a:not(.button) {
 	background-color:rgba(99, 218, 214, 0.58);
 	margin-right:2em;
+	width:200px;
+}
+.top-bar-section ul .menudropdown {
+	float:right;
 }
 
 h1 {
@@ -385,4 +389,8 @@ h2{
 #about p{
 	font-family: 'Roboto';
 	font-weight:300;
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+	font-family: 'Roboto';
 }
