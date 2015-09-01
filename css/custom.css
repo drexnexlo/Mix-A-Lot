@@ -57,6 +57,7 @@ footer {
 	background-color: lightgreen;
 }
 /* ////////////////////////////////////////////////////////////////////////////////GALLERY */
+<<<<<<< Updated upstream
 .gallery div {
 	
 	padding:5rem, 5rem;
@@ -66,6 +67,11 @@ footer {
 .gallery img {
 	padding:5rem, 5rem;
 
+=======
+
+.gallery img {
+margin-left:2.5rem;
+>>>>>>> Stashed changes
 }
 .gallery img:hover {
 
@@ -360,6 +366,10 @@ input, textarea, select, label {
 .top-bar-section li:not(.has-form) a:not(.button) {
 	background-color:rgba(99, 218, 214, 0.58);
 	margin-right:2em;
+	width:200px;
+}
+.top-bar-section ul .menudropdown {
+	float:right;
 }
 
 h1 {
@@ -387,17 +397,35 @@ h2{
 	font-weight:300;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 }
 
 .top-bar .toggle-topbar.menu-icon a {
 	font-family: 'Roboto';
 }
 
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 64em) {
 	.top-bar-section li:not(.has-form) a:not(.button) {
 		width:100px;
 		margin:0;
 	}
+	
+	
+}
+
+@media only screen and (max-width: 64em) {
+	.top-bar .name h1 a {
+		font-size:2.5em;
+}
+
+@media only screen and (min-width: 58.75em) {
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		width:100px;
+		margin:0;
+	}
+<<<<<<< Updated upstream
 	/* ////////////////////////////////////////////////////////////////////////////////GALLERY */
 .gallery div {
 	width:20rem;
@@ -405,6 +433,8 @@ h2{
 	padding:5rem, 5rem;
 	margin-top:5rem;
 }
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
