@@ -398,7 +398,8 @@ h2{
 
 @media only screen and (min-width: 64.0625em) {
 	.top-bar-section li:not(.has-form) a:not(.button) {
-		width:0;
+		width:100px;
+		margin:0;
 	}
 =======
 >>>>>>> Stashed changes
