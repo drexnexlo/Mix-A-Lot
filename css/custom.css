@@ -10,9 +10,7 @@ body {
 .row {
 	max-width: 100%;
 }
-h2 {
-	font-family: 'Changa One', cursive;
-}
+
 section{
 	margin:10rem;
 }
@@ -40,19 +38,18 @@ a {
 }
 .top-bar .name h1 a{
 	font-family: 'Changa One', cursive;
+	font-size:3em;
 }
 /* ////////////////////////////////////////////////////////////////////////////////HERO */
 
 .hero {
 	margin: 0 auto;
-	margin-top: 7rem;
 }
 .top-bar-section ul li > a {
 	font-family: 'Changa One', cursive;
 }
-h1 {
-	font-family: 'Changa One', cursive;
-}
+
+
 footer {
 	background-color: lightgreen;
 }
@@ -177,11 +174,7 @@ table {
 :-ms-input-placeholder {
  color: #879fa6 !important;
 }
-body {
-	font: 12px/20px 'Lucida Grande', Verdana, sans-serif;
-	color: #404040;
-	background: #e4ecef;
-}
+
 input, textarea, select, label {
 	font-family: inherit;
 	font-size: 12px;
@@ -350,3 +343,25 @@ input, textarea, select, label {
 	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px rgba(255, 255, 255, 0.2), 0 0 0 4px #eef7f9;
 	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px rgba(255, 255, 255, 0.2), 0 0 0 4px #eef7f9;
 }
+
+.top-bar {
+	background-color:rgba(99, 218, 214, 0.58);
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background-color:rgba(99, 218, 214, 0.58);
+}
+
+h1 {
+	font-family: 'Changa One', cursive;
+	text-transform:uppercase;
+	font-size: 3em;
+}
+
+h2{
+	font-family: 'Changa One', cursive;
+	text-transform:uppercase;
+	text-align:center;
+} 
+	
+	
