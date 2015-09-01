@@ -46,10 +46,31 @@
   <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
+
+
+
+
   <div class=" gallery row">
-    <div class="columns medium-5 medium-offset-1 large-4 large-offset-2"><img src="img/greenpage.jpg" alt="greenpage"/></div>
+  
+  <div class="columns medium-5 medium-offset-1 large-4 large-offset-2">
+      <a href="#" data-reveal-id="green-page">
+        <img src="img/greenpage.jpg" alt="greenpage"/>
+      </a>
+   </div>
+
+<div id="green-page" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  <h2 id="modalTitle">testing green-page</h2>
+  <p class="lead">Cowgirl Birthday Cake!</p>
+  <img src="img/mix-a-lot-15.jpg" alt="cowgirl cake"/> <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
+
+ <div class="columns medium-5 medium-offset-1 large-4 large-offset-2"><img src="img/greenpage.jpg" alt="greenpage"/></div>
     <div class="left columns medium-5 large-4 end"><img src="img/greenpage.jpg" alt="greenpage"/></div>
   </div>
+  
+  
+  
   <div class=" gallery row">
     <div class="columns medium-5 medium-offset-1 large-4 large-offset-1 "><img src="img/greenpage.jpg" alt="greenpage"/></div>
     <div class="left columns medium-5 large-4 end"><img src="img/greenpage.jpg" alt="greenpage"/></div>
@@ -133,10 +154,10 @@
         + ('__proto__' in {} ? 'zepto' : 'jquery')
         + '.js><\/script>');
     </script>
-<script src="js/vendor/jquery.js"></script> 
+<script src="js/vendor/jquery.js">
+  </script> 
 <script src="js/foundation.min.js"></script> 
 <script src="js/foundation/foundation.reveal.js"></script>
-<script src="js/foundation/foundation.topbar.js"></script>
 <script>
       $(document).foundation();
     </script>
