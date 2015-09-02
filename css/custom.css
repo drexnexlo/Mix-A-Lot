@@ -392,12 +392,35 @@ h2{
 .top-bar .toggle-topbar.menu-icon a {
 	font-family: 'Roboto';
 }
-
-@media only screen and (min-width: 64.0625em) {
+@media only screen and (min-width: 64em) {
 	.top-bar-section li:not(.has-form) a:not(.button) {
 		width:100px;
 		margin:0;
 	}
+	
+	
+}
+
+@media only screen and (max-width: 64em) {
+	.top-bar .name h1 a {
+		font-size:1.1em;
+}
+@media only screen and (min-width: 35em) {
+	.top-bar .name h1 a {
+		font-size:2em;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+		width:100px;
+		margin:0;
+	}
+
+@media only screen and (min-width: 58.75em) {
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		width:100px;
+		margin:0;
+
+	}
+
 	/* ////////////////////////////////////////////////////////////////////////////////GALLERY */
 .gallery div {
 	width:20rem;
