@@ -50,7 +50,9 @@ a {
     letter-spacing: .04em;
 }
 footer {
-    background-color: lightgreen;
+    background-color: rgba(99, 218, 214, 0.58);
+    height:10rem;
+
 }
 /* ////////////////////////////////////////////////////////////////////////////////GALLERY */
 
