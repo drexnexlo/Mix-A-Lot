@@ -9,9 +9,7 @@ html {
 body {
     margin: 0 auto;
 }
-.row {
-    max-width: 100%;
-}
+
 section {
     margin: 10rem;
 }
@@ -22,6 +20,7 @@ section {
     position: fixed;
     height: 7rem;
     margin: 0 auto;
+      max-width: 100%;
 }
 ul {
     list-style-type: none;
