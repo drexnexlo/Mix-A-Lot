@@ -28,7 +28,7 @@ section{
 }
 li {
     display: inline;
-    margin: 1rem 1rem;
+    margin: 1rem 0;
     font-family: 'Changa One', cursive;
     font-size: 3rem;
 }
@@ -136,6 +136,7 @@ a {
 footer {
     background-color: #79CABB;
     height:10rem;
+    text-align:center;
 
 }
 video {
@@ -510,12 +511,16 @@ footer ul li a:hover {
     .top-bar .name h1 a {
         font-size: 1.1rem;
     }
+
         .gallery div {
         width: 20rem;
         height: 20rem;
-        margin-top: 5rem;
+        margin-top
+        : 5rem;
     }
-
+    .top-bar{
+    height:7rem;
+}
 }
 
 @media only screen and (min-width: 40.063rem) {
