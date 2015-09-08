@@ -8,6 +8,7 @@ html {
 }
 body {
     margin: 0 auto;
+
 }
 
 
@@ -71,7 +72,53 @@ a {
     justify-content:center;
 }
 /* ////////////////////////////////////////////////////////////////////////////////REVIEW */
+
+#testimonials {
+  font-size:1.5rem;
+  color:#79CABB;
+}
+
+.testimonial-wrap h2 {
+  margin-top: 40px;
+  font-weight: 200;
+  color: #333;
+}
+.centered-text {
+  text-align: center;
+}
+.quote-marks {
+  font-size: 100px;
+  font-family: Garamond;
+  color: #777;
+}
+.move-right {
+  position: relative;
+  text-align: right;
+}
+.quote {
+  border-radius: 5px;
+}
+.quote p {
+  font-weight: 300;
+  margin-top:2rem;
+}
+.student {
+    font-size:2rem;
+}
 /* ////////////////////////////////////////////////////////////////////////////////ABOUT*/
+#about {
+    font-size:1.5rem;
+}
+#about p {
+    margin:2rem .5rem
+}
+p.bold {
+    font-weight:bold;
+}
+.italic {
+    font-weight:bold;
+    font-style:italic;
+}
 /* ////////////////////////////////////////////////////////////////////////////////FOOTER */
 footer {
     background-color: #79CABB;
@@ -549,6 +596,9 @@ footer ul li a:hover {
         width: 20rem;
         height: 20rem;
         margin-top: 5rem;
+    }
+    #testimonials h2 {
+        font-size: 1rem;
     }
 }
 
