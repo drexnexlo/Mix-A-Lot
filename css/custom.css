@@ -58,7 +58,7 @@ a {
     text-align:center;
     font-style:italic;
     font-size:3rem;
-    color: #879fa6;
+    color: #ff7f50;
 }
 /* ////////////////////////////////////////////////////////////////////////////////GALLERY */
 #gallery h2 {
@@ -120,6 +120,13 @@ a {
 }
 #about p {
     margin:2rem .5rem
+}
+#about div {
+   text-align:center;
+}
+#about p {
+    margin:2rem .5rem;
+    text-align:left;
 }
 .italic {
     font-weight:bold;
