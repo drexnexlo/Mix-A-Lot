@@ -481,6 +481,45 @@ h2 {
     font-family: 'Roboto';
 }
 
+.contact-input {
+	background: rgb(99, 218,214);
+}
+
+.contact {
+	background: rgb(99, 218, 214);
+}
+
+.contact-submit > input {
+	border-radius:0;
+	background-image: none;
+}
+
+input[type="text"] {
+	font-family: 'Roboto';
+}
+
+select {
+	font-family: 'Roboto';
+}
+
+textarea {
+	font-family: 'Roboto';
+}
+
+footer {
+	align-content:center;
+}
+
+footer ul li{
+	margin-right:2em;
+}
+footer ul li a img {
+	max-width:6%;
+}
+
+footer ul li a:hover {
+	background: url(../img/facebookiconhover.svg) no-repeat;
+}
   /* ////////////////////////////////////////////////////////////////////////////////SCREEN SIZE VARIANTS */
 
 
