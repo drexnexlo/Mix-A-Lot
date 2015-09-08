@@ -21,12 +21,10 @@ section{
 .main-header {
     z-index: 1;
     position: fixed;
-    height: 7rem;
+    height: 9rem;
     margin: 0 auto;
       max-width: 100%;
-}
-ul {
-    list-style-type: none;
+
 }
 li {
     display: inline;
@@ -47,14 +45,20 @@ a {
     margin: 0 auto;
     margin-top:2.8rem;
 }
+.top-bar-section{
+    margin:-1rem 2rem 0 0;
+}
 .top-bar-section ul li > a {
     font-family: 'Roboto';
     font-weight: 300;
-    letter-spacing: .04rem;
+    letter-spacing: .03rem;
 }
 
-.hero p {
-    color:red;
+.pull {
+    text-align:center;
+    font-style:italic;
+    font-size:3rem;
+    color: #879fa6;
 }
 /* ////////////////////////////////////////////////////////////////////////////////GALLERY */
 #gallery h2 {
