@@ -3,6 +3,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Changa+One);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,300italic,400italic,500);
+
 html {
     font-size: 16px;
 }
@@ -23,7 +24,7 @@ section{
     position: fixed;
     height: 9rem;
     margin: 0 auto;
-      max-width: 100%;
+    max-width: 100%;
 
 }
 li {
@@ -37,7 +38,8 @@ a {
 }
 .top-bar .name h1 a {
     font-family: 'Changa One', cursive;
-    font-size: 3rem;
+    font-size:3rem;
+   
 }
 /* ////////////////////////////////////////////////////////////////////////////////HERO */
 
@@ -46,7 +48,7 @@ a {
     margin-top:2.8rem;
 }
 .top-bar-section{
-    margin:-1rem 2rem 0 0;
+    margin:0;
 }
 .top-bar-section ul li > a {
     font-family: 'Roboto';
@@ -133,25 +135,36 @@ a {
     font-style:italic;
 }
 /* ////////////////////////////////////////////////////////////////////////////////FOOTER */
+
+
 footer {
     background-color: #79CABB;
     height:10rem;
     text-align:center;
 
 }
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+
+
+body {
+    line-height: 1;
 }
-
-
+ol,
 ul {
     list-style: none;
 }
+footer ul li{
+    margin-right:2rem;
+}
+
+footer ul li a img {
+    max-width:6%;
+}
+
+footer ul li a:hover {
+    background: url(../img/facebookiconhover.svg) no-repeat;
+}
+
+
 blockquote,
 q {
     quotes: none;
@@ -242,7 +255,7 @@ input,
 textarea,
 select,
 label {
-    font-family: inherit;
+    font-family: 'Roboto';
     font-size: 12px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -253,7 +266,7 @@ label {
     margin: 50px auto;
     padding: 5px;
     width: 320px;
-    background: #eef5f7;
+    background: rgb(99, 218,214);
     border: 1px solid #cfd5da;
     border-bottom-color: #ccd1d6;
     border-radius: 3px;
@@ -300,7 +313,7 @@ label {
     overflow: hidden;
     margin-bottom: 20px;
     padding: 5px;
-    background: #eef7f9;
+    background: rgb(99,218,214);
     border-radius: 2px;
 }
 .contact-input > input,
@@ -387,6 +400,7 @@ label {
 }
 .contact-submit {
     text-align: right;
+
 }
 .contact-submit > input {
     display: inline-block;
@@ -399,12 +413,9 @@ label {
     background: #deeef4;
     border: 1px solid #bed6e3;
     border-bottom-color: #accbd9;
-    border-radius: 15px;
+    border-radius: 0;
     cursor: pointer;
-    background-image: -webkit-linear-gradient(top, #e6f2f7, #d0e6ee);
-    background-image: -moz-linear-gradient(top, #e6f2f7, #d0e6ee);
-    background-image: -o-linear-gradient(top, #e6f2f7, #d0e6ee);
-    background-image: linear-gradient(to bottom, #e6f2f7, #d0e6ee);
+    background-image:none;
     -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 4px #eef7f9;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 4px #eef7f9;
 }
@@ -425,8 +436,8 @@ label {
 .top-bar-section li:not(.has-form) a:not(.button) {
     background-color: #79CABB;
     color:#F3E78B;
-    margin-right: 2rem;
-    width: 200px;
+   
+    width: 100px;
     font-size:1rem;
     font-weight:700;
 }
@@ -458,51 +469,19 @@ h2 {
     font-family: 'Roboto';
 }
 
-<<<<<<< Updated upstream
-.contact-input {
-	background: rgb(99, 218,214);
-}
 
-.contact {
-	background: rgb(99, 218, 214);
-}
 
-.contact-submit > input {
-	border-radius:0;
-	background-image: none;
-}
+
+
 
 input[type="text"] {
 	font-family: 'Roboto';
 }
 
-select {
-	font-family: 'Roboto';
-}
-
-textarea {
-	font-family: 'Roboto';
-}
-
-footer {
-	align-content:center;
-}
-
-footer ul li{
-	margin-right:2rem;
-}
-footer ul li a img {
-	max-width:6%;
-}
-
-footer ul li a:hover {
-	background: url(../img/facebookiconhover.svg) no-repeat;
-}
-=======
 
 
 
->>>>>>> Stashed changes
+
   /* ////////////////////////////////////////////////////////////////////////////////SCREEN SIZE VARIANTS */
 
 
@@ -511,16 +490,17 @@ footer ul li a:hover {
     .top-bar .name h1 a {
         font-size: 1.1rem;
     }
-
         .gallery div {
         width: 20rem;
         height: 20rem;
-        margin-top
-        : 5rem;
+        margin-top:5rem;
     }
-    .top-bar{
-    height:7rem;
-}
+
+   .hidden{
+    visibility: hidden;
+    }
+
+
 }
 
 @media only screen and (min-width: 40.063rem) {
@@ -531,6 +511,10 @@ footer ul li a:hover {
         width: 100px;
         margin: 0;
     }
+    .hidden-lg{
+    display: none;
+}
+
 }
 @media only screen and (min-width: 64.063rem) {
     .top-bar .name h1 a {
@@ -544,9 +528,10 @@ footer ul li a:hover {
   #testimonials h2{
         font-size:5rem;
             margin:20rem 0 5rem 0;
-           
-
     }
+       .hidden-lg{
+    display: none;
+}
 }
 
 @media only screen and (min-width: 90.063rem) { } /* min-width 1441px, xlarge screens */
