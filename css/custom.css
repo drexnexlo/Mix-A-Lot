@@ -10,6 +10,7 @@ html {
 body {
     margin: 0 auto;
     line-height:1.5;
+    font-family:'Roboto', sans-serif;
 }
 section{
     margin:5rem 0 2rem 0;
@@ -132,21 +133,29 @@ a {
     margin-left:2rem;
    
 }
-#about p {
-    margin:2rem .5rem
-}
+
 #about div {
    text-align:center;
 }
 #about p {
-    margin:2rem .5rem;
+    margin:0 .5rem;
     text-align:left;
 }
 .italic {
     font-weight:bold;
     font-style:italic;
 }
+.plea {
+    font-weight:500 !important;
+    padding:1rem 0;
+}
 /* ////////////////////////////////////////////////////////////////////////////////FOOTER */
+
+svg {
+    margin:2rem;
+    height:4rem;
+    width:6rem;
+}
 
 
 footer {
@@ -492,8 +501,6 @@ input[type="text"] {
 
 
 
-
-
   /* ////////////////////////////////////////////////////////////////////////////////SCREEN SIZE VARIANTS */
 
 
@@ -512,6 +519,11 @@ input[type="text"] {
     visibility: hidden;
     }
 
+svg {
+    height:2.5rem;
+    width:4rem;
+}
+
 
 }
 
@@ -526,8 +538,13 @@ input[type="text"] {
     .hidden-lg{
     display: none;
 }
+.info {
+    margin-top:2rem;
+}
 
 }
+
+
 @media only screen and (min-width: 64.063rem) {
     .top-bar .name h1 a {
         font-size: 3rem;
