@@ -6,6 +6,7 @@
 
 html {
     font-size: 16px;
+    background-image:url("../img/background.jpg");
 }
 body {
     margin: 0 auto;
@@ -95,7 +96,7 @@ a {
   font-family: 'Roboto';
   font-weight: 500;
 }
-}
+
 
 .testimonial-wrap h2 {
   margin-top: 40px;
@@ -140,7 +141,9 @@ a {
 #about p {
     margin:0 .5rem;
     text-align:left;
+    font-weight: 300;
 }
+
 .italic {
     font-weight:bold;
     font-style:italic;
@@ -149,14 +152,25 @@ a {
     font-weight:500 !important;
     padding:1rem 0;
 }
+#about p:first-of-type::first-letter {
+    initial-letter: 1;
+    font-size:3rem;
+    font-family:cursive;
+    font-weight:700;
+    color:  #ff7f50;
+}
 /* ////////////////////////////////////////////////////////////////////////////////FOOTER */
 
 svg {
     margin:2rem;
-    height:4rem;
-    width:6rem;
+    height:3rem;
+    width:4rem;
 }
 
+
+.icons {
+    text-align: center;
+}
 
 footer {
     background-color: #79CABB;
@@ -164,27 +178,6 @@ footer {
     text-align:center;
 
 }
-
-
-body {
-    line-height: 1;
-}
-ol,
-ul {
-    list-style: none;
-}
-footer ul li{
-    margin-right:2rem;
-}
-
-footer ul li a img {
-    max-width:6%;
-}
-
-footer ul li a:hover {
-    background: url(../img/facebookiconhover.svg) no-repeat;
-}
-
 
 blockquote,
 q {
@@ -479,10 +472,6 @@ h2 {
     margin: 3rem 0 2rem 0;
 }
 
-#about p {
-    font-family: 'Roboto';
-    font-weight: 300;
-}
 .top-bar .toggle-topbar.menu-icon a {
     font-family: 'Roboto';
 }
@@ -519,11 +508,10 @@ input[type="text"] {
     visibility: hidden;
     }
 
-svg {
-    height:2.5rem;
-    width:4rem;
-}
 
+.hero {
+    margin-top:-15rem;
+}
 
 }
 
