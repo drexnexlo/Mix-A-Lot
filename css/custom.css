@@ -6,12 +6,16 @@
 
 html {
     font-size: 16px;
-    background-image:url("../img/background.jpg");
+    
 }
 body {
     margin: 0 auto;
     line-height:1.5;
     font-family:'Roboto', sans-serif;
+   background-image:url("../img/background.jpg");
+
+
+background-position:center;
 }
 section{
     margin:5rem 0 2rem 0;
@@ -43,12 +47,6 @@ a {
     font-size:3rem;
    
 }
-/* ////////////////////////////////////////////////////////////////////////////////HERO */
-
-.hero {
-    margin: 0 auto;
-    margin-top:2.8rem;
-}
 .top-bar-section{
     margin:0;
 }
@@ -57,16 +55,23 @@ a {
     font-weight: 300;
     letter-spacing: .03rem;
 }
+/* ////////////////////////////////////////////////////////////////////////////////HERO */
+
+.hero {
+    margin: 0 auto;
+    margin-top:2.8rem;
+}
+
 
 .pull {
-    margin-top:2rem;
+  
     text-align:center;
     font-weight:500;
     line-height:3rem;
     text-transform:uppercase;
-    font-family:'Roboto'sans-serif;
-    font-size:3rem;
-    color: #ff7f50;
+    font-family:'Changa One', sans-serif;
+    font-size:2.5rem;
+    color: #000;
 }
 /* ////////////////////////////////////////////////////////////////////////////////GALLERY */
 #gallery h2 {
@@ -99,7 +104,7 @@ a {
 
 
 .testimonial-wrap h2 {
-  margin-top: 40px;
+  margin-top: 2.5rem;
   font-weight: 200;
   color: #333;
 }
@@ -116,7 +121,7 @@ a {
   text-align: right;
 }
 .quote {
-  border-radius: 5px;
+  border-radius: .313rem;
 }
 .quote p {
   font-weight: 300;
@@ -152,13 +157,6 @@ a {
     font-weight:500 !important;
     padding:1rem 0;
 }
-#about p:first-of-type::first-letter {
-    initial-letter: 1;
-    font-size:3rem;
-    font-family:cursive;
-    font-weight:700;
-    color:  #ff7f50;
-}
 /* ////////////////////////////////////////////////////////////////////////////////FOOTER */
 
 svg {
@@ -174,7 +172,7 @@ svg {
 
 footer {
     background-color: #79CABB;
-    height:10rem;
+    height:12rem;
     text-align:center;
 
 }
@@ -488,7 +486,24 @@ input[type="text"] {
 	font-family: 'Roboto';
 }
 
+.rotate {
 
+/* Safari */
+-webkit-transform: rotate(30deg);
+
+/* Firefox */
+-moz-transform: rotate(15deg);
+
+/* IE */
+-ms-transform: rotate(30deg);
+
+/* Opera */
+-o-transform: rotate(30deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
 
   /* ////////////////////////////////////////////////////////////////////////////////SCREEN SIZE VARIANTS */
 
@@ -508,14 +523,15 @@ input[type="text"] {
     visibility: hidden;
     }
 
-
 .hero {
-    margin-top:-15rem;
+    margin-top:-100px;
+   text-align:center;
 }
-
 }
 
 @media only screen and (min-width: 40.063rem) {
+
+
     .top-bar .name h1 a {
         font-size: 2rem;
     }
