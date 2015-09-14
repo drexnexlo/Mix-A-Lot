@@ -264,9 +264,6 @@ table {
 :-ms-input-placeholder {
     color: #879fa6 !important;
 }
-input,
-textarea,
-select,
 label {
     font-family: 'Roboto';
     font-size: 12px;
