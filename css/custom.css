@@ -150,6 +150,9 @@ svg {
 .icons {
     text-align: center;
 }
+
+
+
 footer {
     background-color: #79CABB;
     height: 12rem;
@@ -500,6 +503,14 @@ input[type="text"] {
     #about p{
         margin-top:2rem;
     }
+    
+    svg {
+        margin:2rem 1rem;
+    }
+
+    .quote-marks {
+        margin-bottom:-6.5rem;
+    }
 }
 @media only screen and (min-width: 40.063rem) {
     .top-bar .name h1 a {
@@ -521,6 +532,12 @@ input[type="text"] {
     .tall-pic {
         margin-top: 0rem;
     }
+    .medium-offset-1 {
+    margin-left: 0 !important;
+}
+.fb {
+    margin-left:7rem;
+}
 }
 @media only screen and (min-width: 64.063rem) {
     .top-bar .name h1 a {
@@ -541,4 +558,7 @@ input[type="text"] {
     .tall-pic {
         margin-top: 0rem;
     }
+    .fb {
+    margin-left:8rem;
+}
 }
