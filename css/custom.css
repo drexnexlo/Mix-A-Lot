@@ -523,10 +523,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     visibility: hidden;
     }
 
-.hero {
-    margin-top:-100px;
-   text-align:center;
-}
+
 }
 
 @media only screen and (min-width: 40.063rem) {
