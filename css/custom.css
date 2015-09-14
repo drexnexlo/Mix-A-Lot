@@ -3,12 +3,14 @@
 
 @import url(https://fonts.googleapis.com/css?family=Changa+One);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,300italic,400italic,500);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 
 html {
     font-size: 16px;
     
 }
 body {
+
     margin: 0 auto;
     line-height:1.5;
     font-family:'Roboto', sans-serif;
@@ -60,14 +62,13 @@ a {
 
 
 .pull {
-  
+    margin-top:4rem;
     text-align:center;
     font-weight:500;
     line-height:3rem;
-    text-transform:uppercase;
-    font-family:'Changa One', sans-serif;
+    font-family: 'Kaushan Script', cursive;
     font-size:2.5rem;
-    color: #000;
+    color:  #79CABB;
 }
 /* ////////////////////////////////////////////////////////////////////////////////GALLERY */
 #gallery h2 {
@@ -95,7 +96,7 @@ a {
 
 
 #testimonials  {
-    margin-top:`30rem;
+    margin-top:-10rem;
   font-size:1.5rem;
   color:#79CABB;
   font-family: 'Roboto';
@@ -409,7 +410,7 @@ label {
     outline: 0;
 }
 .contact-submit {
-    text-align: right;
+    text-align: center;
 
 }
 .contact-submit > input {
@@ -484,24 +485,6 @@ input[type="text"] {
 	font-family: 'Roboto';
 }
 
-.rotate {
-
-/* Safari */
--webkit-transform: rotate(15deg);
-
-/* Firefox */
--moz-transform: rotate(15deg);
-
-/* IE */
--ms-transform: rotate(15deg);
-
-/* Opera */
--o-transform: rotate(15deg);
-
-/* Internet Explorer */
-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-
-}
 
   /* ////////////////////////////////////////////////////////////////////////////////SCREEN SIZE VARIANTS */
 
@@ -520,7 +503,10 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
    .hidden{
     visibility: hidden;
     }
+#testimonials  {
 
+  margin-top:0rem;
+}
 
 }
 
@@ -536,6 +522,10 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     }
     .hidden-lg{
     display: none;
+}
+#testimonials  {
+
+  margin-top:0rem;
 }
 .info {
     margin-top:2rem;
@@ -557,7 +547,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     }
   #testimonials h2{
         font-size:5rem;
-            margin:20rem 0 5rem 0;
+            margin:10rem 0 5rem 0;
     }
        .hidden-lg{
     display: none;
