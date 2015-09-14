@@ -77,12 +77,15 @@ a {
     padding: 5rem, 5rem;
     margin-top: 5rem;
 }
+.tall-pic {
+    margin-top:10rem;
+}
 .gallery img {
     padding: 5rem, 5rem;
     
 }
 .gallery img:hover {
-    margin: -1.825rem;
+    margin: .2rem;
     z-index: 5;
 }
 .modal {
@@ -538,7 +541,9 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 .info {
     margin-top:2rem;
 }
-
+.tall-pic {
+    margin-top:0rem;
+}
 }
 
 
@@ -557,6 +562,9 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     }
        .hidden-lg{
     display: none;
+}
+.tall-pic {
+    margin-top:0rem;
 }
 }
 
