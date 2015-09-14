@@ -4,22 +4,17 @@
 @import url(https://fonts.googleapis.com/css?family=Changa+One);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,300italic,400italic,500);
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
-
 html {
     font-size: 16px;
 }
 body {
-
     margin: 0 auto;
-    line-height:1.5;
-    font-family:'Roboto', sans-serif;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
 }
-section{
-    margin:5rem 0 2rem 0;
+section {
+    margin: 5rem 0 2rem 0;
 }
-
-
-
 /* ///////////////////////////////////////////////////////////////////////////////HEADER */
 
 .main-header {
@@ -28,7 +23,6 @@ section{
     height: 9rem;
     margin: 0 auto;
     max-width: 100%;
-
 }
 li {
     display: inline;
@@ -41,11 +35,10 @@ a {
 }
 .top-bar .name h1 a {
     font-family: 'Changa One', cursive;
-    font-size:3rem;
-   
+    font-size: 3rem;
 }
-.top-bar-section{
-    margin:0;
+.top-bar-section {
+    margin: 0;
 }
 .top-bar-section ul li > a {
     font-family: 'Roboto';
@@ -56,125 +49,112 @@ a {
 
 .hero {
     margin: 0 auto;
-    margin-top:2.8rem;
+    margin-top: 2.8rem;
 }
-
-
 .pull {
-    margin-top:4rem;
-    text-align:center;
-    font-weight:500;
-    line-height:3rem;
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: 500;
+    line-height: 3rem;
     font-family: 'Kaushan Script', cursive;
-    font-size:2.5rem;
-    color:  #79CABB;
+    font-size: 2.5rem;
+    color: #79CABB;
 }
 /* ////////////////////////////////////////////////////////////////////////////////GALLERY */
+
 #gallery h2 {
-    margin:4rem 0 -2rem 0;
+    margin: 4rem 0 -2rem 0;
 }
 .gallery div {
- 
     margin-top: 5rem;
 }
 .tall-pic {
-    margin-top:10rem;
+    margin-top: 10rem;
 }
-
 .gallery img:hover {
     margin: .2rem;
     z-index: 5;
 }
 .modal {
-    justify-content:center;
+    justify-content: center;
 }
 /* ////////////////////////////////////////////////////////////////////////////////REVIEW */
 
-
-#testimonials  {
-    margin-top:-10rem;
-  font-size:1.5rem;
-  color:#79CABB;
-  font-family: 'Roboto';
-  font-weight: 500;
+#testimonials {
+    margin-top: -10rem;
+    font-size: 1.5rem;
+    color: #79CABB;
+    font-family: 'Roboto';
+    font-weight: 500;
 }
-
-
 .testimonial-wrap h2 {
-  margin-top: 2.5rem;
-  font-weight: 200;
-  color: #333;
+    margin-top: 2.5rem;
+    font-weight: 200;
+    color: #333;
 }
 .centered-text {
-  text-align: center;
+    text-align: center;
 }
 .quote-marks {
-  font-size: 100px;
-  margin-bottom:-4rem;
-  font-family: Garamond;
-  color: #777;
+    font-size: 100px;
+    margin-bottom: -4rem;
+    font-family: Garamond;
+    color: #777;
 }
 .move-right {
-  position: relative;
-  text-align: right;
+    position: relative;
+    text-align: right;
 }
 .quote {
-  border-radius: .313rem;
+    border-radius: .313rem;
 }
 .quote p {
-  font-weight: 300;
-  margin-top:2rem;
+    font-weight: 300;
+    margin-top: 2rem;
 }
 .student p {
-    font-weight:700;
+    font-weight: 700;
     font-size: 1.5rem;
-    color:#F47E52;
+    color: #F47E52;
 }
 /* ////////////////////////////////////////////////////////////////////////////////ABOUT*/
-#about {
-    font-size:1.5rem;
-    line-height:1.5;
-    margin-left:2rem;
-   
-}
 
+#about {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-left: 2rem;
+}
 #about div {
-   text-align:center;
+    text-align: center;
 }
 #about p {
-    margin:0 .5rem;
-    text-align:left;
+    margin: 0 .5rem;
+    text-align: left;
     font-weight: 300;
 }
-
 .italic {
-    font-weight:bold;
-    font-style:italic;
+    font-weight: bold;
+    font-style: italic;
 }
 .plea {
-    font-weight:500 !important;
-    padding:1rem 0;
+    font-weight: 500 !important;
+    padding: 1rem 0;
 }
 /* ////////////////////////////////////////////////////////////////////////////////FOOTER */
 
 svg {
-    margin:2rem;
-    height:3rem;
-    width:4rem;
+    margin: 2rem;
+    height: 3rem;
+    width: 4rem;
 }
-
-
 .icons {
     text-align: center;
 }
-
 footer {
     background-color: #79CABB;
-    height:12rem;
-    text-align:center;
-
+    height: 12rem;
+    text-align: center;
 }
-
 blockquote,
 q {
     quotes: none;
@@ -238,8 +218,6 @@ table {
     padding: 1px 3px;
     margin: 0 -1px;
 }
-
-
 /*
  * Copyright (c) 2013 Thibaut Courouble
  * http://www.cssflow.com
@@ -248,6 +226,7 @@ table {
  * http://www.opensource.org/licenses/mit-license.php
  */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// CONTACT FORM */
+
 ::-moz-focus-inner {
     padding: 0;
     border: 0;
@@ -273,7 +252,7 @@ label {
     margin: 50px auto;
     padding: 5px;
     width: 320px;
-    background: rgb(99, 218,214);
+    background: rgb(99, 218, 214);
     border: 1px solid #cfd5da;
     border-bottom-color: #ccd1d6;
     border-radius: 3px;
@@ -320,7 +299,7 @@ label {
     overflow: hidden;
     margin-bottom: 20px;
     padding: 5px;
-    background: rgb(99,218,214);
+    background: rgb(99, 218, 214);
     border-radius: 2px;
 }
 .contact-input > input,
@@ -407,7 +386,6 @@ label {
 }
 .contact-submit {
     text-align: center;
-
 }
 .contact-submit > input {
     display: inline-block;
@@ -422,7 +400,7 @@ label {
     border-bottom-color: #accbd9;
     border-radius: 0;
     cursor: pointer;
-    background-image:none;
+    background-image: none;
     -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 4px #eef7f9;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 4px #eef7f9;
 }
@@ -434,19 +412,17 @@ label {
     -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px rgba(255, 255, 255, 0.2), 0 0 0 4px #eef7f9;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px rgba(255, 255, 255, 0.2), 0 0 0 4px #eef7f9;
 }
-
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// TOP BAR */
+
 .top-bar {
     background-color: #F47E52;
-
 }
 .top-bar-section li:not(.has-form) a:not(.button) {
     background-color: #79CABB;
-    color:#F3E78B;
-   
+    color: #F3E78B;
     width: 100px;
-    font-size:1rem;
-    font-weight:700;
+    font-size: 1rem;
+    font-weight: 700;
 }
 .top-bar-section ul .menudropdown {
     float: right;
@@ -464,78 +440,68 @@ h2 {
     color: #F47E52;
     margin: 3rem 0 2rem 0;
 }
-
 .top-bar .toggle-topbar.menu-icon a {
     font-family: 'Roboto';
 }
 .top-bar-section li:not(.has-form) a:not(.button):hover {
     background-color: #F47E52;
-    background:#F47E52;
+    background: #F47E52;
 }
 .top-bar.expanded .title-area {
     background: #F47E52 !important;
 }
-
 .top-bar.expanded .toggle-topbar a span::after {
     box-shadow: 0 0 0 1px #ffffff, 0 7px 0 1px #ffffff, 0 14px 0 1px #ffffff;
 }
 .top-bar.expanded .toggle-topbar a {
     color: #fff;
 }
-
-
-
-
 input[type="text"] {
-	font-family: 'Roboto';
+    font-family: 'Roboto';
 }
-
-
-
-  /* ////////////////////////////////////////////////////////////////////////////////SCREEN SIZE VARIANTS */
-
-
+/* ////////////////////////////////////////////////////////////////////////////////SCREEN SIZE VARIANTS */
 
 @media only screen and (max-width: 40rem) {
     .top-bar .name h1 a {
         font-size: 1.1rem;
     }
-        .gallery div {
+    .gallery div {
         width: 20rem;
         height: 20rem;
-        margin-top:5rem;
+        margin-top: 5rem;
     }
-
-   .hidden{
-    visibility: hidden;
+    .hidden {
+        visibility: hidden;
     }
-#testimonials  {
-
-  margin-top:0rem;
+    #testimonials {
+        margin-top: 0rem;
+    }
+    .anna-elsa {
+        margin-top: -1rem !important;
+    }
+    .stroller {
+        margin-top: -1rem !important;
+    }
+    .zebra {
+        margin-top: 2rem !important;
+    }
+    .minion {
+        margin-top: 1rem !important;
+    }
+    .cupcakes {
+        margin-top: 1rem !important;
+    }
+    .karen {
+        margin-top: 4.5rem !important;
+    }
+    h2 {
+        line-height:4.25rem;
+    }
+    #about p{
+        margin-top:2rem;
+    }
 }
-.anna-elsa {
-    margin-top:-1rem !important;
-}
-.stroller {
-    margin-top:-1rem !important;
-}
-.zebra {
-    margin-top:2rem !important;
-}
-.minion {
-    margin-top:1rem !important;
-}
-.cupcakes {
-    margin-top:1rem !important;
-}
-.karen {
-    margin-top:4.5rem !important;
-}
-}
-
 @media only screen and (min-width: 40.063rem) {
-
-
     .top-bar .name h1 a {
         font-size: 2rem;
     }
@@ -543,40 +509,36 @@ input[type="text"] {
         width: 100px;
         margin: 0;
     }
-    .hidden-lg{
-    display: none;
+    .hidden-lg {
+        display: none;
+    }
+    #testimonials {
+        margin-top: 0rem;
+    }
+    .info {
+        margin-top: 2rem;
+    }
+    .tall-pic {
+        margin-top: 0rem;
+    }
 }
-#testimonials  {
-
-  margin-top:0rem;
-}
-.info {
-    margin-top:2rem;
-}
-.tall-pic {
-    margin-top:0rem;
-}
-}
-
-
 @media only screen and (min-width: 64.063rem) {
     .top-bar .name h1 a {
         font-size: 3rem;
     }
-         .gallery div {
+    .gallery div {
         width: 20rem;
         height: 20rem;
         margin-top: 5rem;
     }
-  #testimonials h2{
-        font-size:5rem;
-            margin:10rem 0 5rem 0;
+    #testimonials h2 {
+        font-size: 5rem;
+        margin: 10rem 0 5rem 0;
     }
-       .hidden-lg{
-    display: none;
+    .hidden-lg {
+        display: none;
+    }
+    .tall-pic {
+        margin-top: 0rem;
+    }
 }
-.tall-pic {
-    margin-top:0rem;
-}
-}
-
