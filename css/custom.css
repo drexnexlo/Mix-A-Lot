@@ -12,10 +12,6 @@ body {
     margin: 0 auto;
     line-height:1.5;
     font-family:'Roboto', sans-serif;
-   background-image:url("../img/background.jpg");
-
-background-size:100% auto;
-background-position:center;
 }
 section{
     margin:5rem 0 2rem 0;
@@ -489,16 +485,16 @@ input[type="text"] {
 .rotate {
 
 /* Safari */
--webkit-transform: rotate(30deg);
+-webkit-transform: rotate(15deg);
 
 /* Firefox */
 -moz-transform: rotate(15deg);
 
 /* IE */
--ms-transform: rotate(30deg);
+-ms-transform: rotate(15deg);
 
 /* Opera */
--o-transform: rotate(30deg);
+-o-transform: rotate(15deg);
 
 /* Internet Explorer */
 filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
@@ -563,10 +559,6 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     display: none;
 }
 }
-
-@media only screen and (min-width: 90.063rem) { } /* min-width 1441px, xlarge screens */
-@media only screen and (min-width: 120.063rem) { } /* min-width 1921px, xxlarge screens */
-
 
    /* ////////////////////////////////////////////////////////////////////////////////GALLERY 
 @media only screen and (min-width: 64em) {
