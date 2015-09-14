@@ -472,10 +472,16 @@ h2 {
     background-color: #F47E52;
     background:#F47E52;
 }
-.top-bar .expanded .title-area{
-    background:#F47E52
+.top-bar.expanded .title-area {
+    background: #F47E52 !important;
 }
 
+.top-bar.expanded .toggle-topbar a span::after {
+    box-shadow: 0 0 0 1px #ffffff, 0 7px 0 1px #ffffff, 0 14px 0 1px #ffffff;
+}
+.top-bar.expanded .toggle-topbar a {
+    color: #fff;
+}
 
 
 
