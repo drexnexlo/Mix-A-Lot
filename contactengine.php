@@ -4,7 +4,8 @@ $EmailFrom = "contact@mixalot.com";
 $EmailTo = "kennybeyer37@gmail.com";
 $Subject = "Mix-A-Lot Contact Form Submission";
 $Name = Trim(stripslashes($_POST['Name']));  
-$Email = Trim(stripslashes($_POST['Email'])); 
+$Email = Trim(stripslashes($_POST['Email']));
+$Choice = Trim(stripslashes($_POST['Choice']));  
 $Message = Trim(stripslashes($_POST['Message'])); 
 
 // validation
