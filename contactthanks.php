@@ -1,25 +1,19 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Strict//EN">
 
 <head>
-	<title>A Nice & Simple Contact Form</title>
+	<title></title>
 	
 	<link rel="stylesheet" type="text/css" href="../../../Downloads/NiceSimpleContactForm/style.css" />
-    
+    <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/custom.css"/>
 </head>
 
 <body>
 
 	<div id="page-wrap">
-
-		<img src="../../../Downloads/NiceSimpleContactForm/images/title.gif" alt="A Nice & Simple Contact Form" />
-		<p>By <a href="http://css-tricks.com">CSS-Tricks</a></p>
-			
-			
-		<br /><br />
 		
 			
-		<h1>Your message has been sent!</h1><br />
+		<p>Your message has been sent!</p><br />
 		
 		<p><a href="../../../Downloads/NiceSimpleContactForm/index.html">Back to Contact Form</a></p>
 	
